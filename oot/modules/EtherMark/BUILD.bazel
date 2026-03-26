@@ -1,0 +1,14 @@
+load("//build/kernel/kleaf:kernel.bzl", "kernel_module")
+kernel_module(
+    name = "EtherMark",
+    srcs = glob([
+        "**/*.c",
+        "**/*.h",
+        "Kbuild",
+    ]),
+    outs = [
+        "etherMark.ko",
+    ],
+    kernel_build = "//common:kernel_aarch64",
+    visibility = ["//visibility:public"],
+)
