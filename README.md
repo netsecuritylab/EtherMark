@@ -1,4 +1,4 @@
-This repository contains the data and code for the **EtherMark** paper submitted at WoWMoM 2026.
+This repository contains the data and code for the **EtherMark** paper accepted and published at WoWMoM 2026.
 > **Note:** ALL THE COMMANDS BELOW WHERE TESTED ONLY ON **UBUNTU 24.04 LTS**
 
 # Building EtherMark
